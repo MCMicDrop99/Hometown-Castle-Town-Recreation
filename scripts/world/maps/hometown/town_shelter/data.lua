@@ -1,7 +1,7 @@
 return {
   version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.11.0",
+  tiledversion = "1.10.2",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -548,122 +548,6 @@ return {
           properties = {}
         },
         {
-          id = 18,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 240,
-          y = 2200,
-          width = 160,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 31,
-          name = "",
-          type = "",
-          shape = "rectangle",
-          x = 160,
-          y = 2280,
-          width = 320,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 35,
-          name = "",
-          type = "",
-          shape = "polygon",
-          x = 120,
-          y = 2320,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          polygon = {
-            { x = 0, y = 0 },
-            { x = 40, y = 0 },
-            { x = 40, y = -40 }
-          },
-          properties = {}
-        },
-        {
-          id = 36,
-          name = "",
-          type = "",
-          shape = "polygon",
-          x = 160,
-          y = 2280,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          polygon = {
-            { x = 0, y = 0 },
-            { x = 40, y = -40 },
-            { x = 40, y = 0 }
-          },
-          properties = {}
-        },
-        {
-          id = 37,
-          name = "",
-          type = "",
-          shape = "polygon",
-          x = 200,
-          y = 2240,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          polygon = {
-            { x = 0, y = 0 },
-            { x = 40, y = 0 },
-            { x = 40, y = -40 }
-          },
-          properties = {}
-        },
-        {
-          id = 38,
-          name = "",
-          type = "",
-          shape = "polygon",
-          x = 400,
-          y = 2200,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          polygon = {
-            { x = 0, y = 0 },
-            { x = 0, y = 40 },
-            { x = 40, y = 40 }
-          },
-          properties = {}
-        },
-        {
-          id = 39,
-          name = "",
-          type = "",
-          shape = "polygon",
-          x = 440,
-          y = 2240,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          polygon = {
-            { x = 0, y = 0 },
-            { x = 0, y = 40 },
-            { x = 40, y = 40 }
-          },
-          properties = {}
-        },
-        {
           id = 40,
           name = "",
           type = "",
@@ -675,9 +559,10 @@ return {
           rotation = 0,
           visible = true,
           polygon = {
-            { x = 0, y = 0 },
             { x = 40, y = 0 },
-            { x = 0, y = -40 }
+            { x = -80, y = -120 },
+            { x = -240, y = -120 },
+            { x = -360, y = 0 }
           },
           properties = {}
         }
@@ -720,7 +605,7 @@ return {
           type = "",
           shape = "point",
           x = 320,
-          y = 2320,
+          y = 2480,
           width = 0,
           height = 0,
           rotation = 0,
